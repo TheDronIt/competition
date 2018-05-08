@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*a{
+	color: #333;
+	/*text-decoration: underline;
+}
+a:hover {
+    color: #c43f2b;
+    /*text-decoration: underline;*/
+}
+*/
+.haed
+{
+	height: 100%;
+	width: 100%;
+	
+}
+.menu
+{
+	background-color: #e8e8e8;
+	font-family: 'Handlee', cursive;
+	height: 80px;
+	width: 100%;
+}
+.menu-block
+{
+	font-size: 31px;
+	text-align:  center;
+	padding: 30px 20px 30px 20px;
+}
+.menu-block:hover
+{
+	background: #DCDCDC	;
+	cursor: pointer;
+	color: #ea7e5d;
+}
+.menu-logo
+{
+	margin-top: 3px;
+	margin-left: 10px;
+	height: 75px;
+	width: 75px;
+}
+.content
+{
+	
+}
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+.page-content__cards-item {
+    width: 500px;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+.content-line{
+	max-width: 480px;
+	border-bottom: 5px #666 solid;
+}
+.cards-title {
+	margin-top: -30px;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.1em;
+    padding-bottom: 0.5em;
+}
+
+.cards-description {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+/*========|PHONE|======*/
+@media (max-width: 600px) 
+{
+	
+}
